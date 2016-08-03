@@ -8,10 +8,13 @@
     <h1>Hooray! We added a person</h1>
 
     <ul>
-      <li>Name: <%= "SOMETHING GOES HERE" %></li>
-      <li>Address: <%= "SOMETHING GOES HERE" %></li>
-      <!-- <li>In their own <li>s add other attributes of a person here </li> -->
-      <!-- e.g. there should be as many <li> as there are attributes of a person -->
+      <li>Name: <%= person.name %></li>
+      <li>Phone_number: <%= person.phone_number %></li>
+      <li>Address: <%= person.address %></li>
+      <li>Position:<%= person.position %><li>
+      <li>Salary:<%= person.salary  %></li>
+      <li>Github:<%= person.github_account %></li>
+      <li>Slack:<%= person.slack_account %></li>
     </ul>
   </body>
 </html>
